@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: rgb(218, 33, 33);
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    text-align: justify;
+}
+
+h3 {
+    color: white;
+    font-size: small;
+}
+h6{
+    font-size: larger;
+    text-align: justify;
+}
+footer {
+    background-color: rgb(218, 33, 33);
+    border-width: 2px;
+    margin-top: 500px;
+}
+
+a:link,
+a:visited {
+    background-color: rgb(218, 33, 33);
+    color: white;
+    padding: 14px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(199, 34, 34);
+    border-style: solid;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(218, 33, 33);
+}
+
+.menu__home {
+    padding: 10px;
+    flex: 50%;
+}
+
+.menu__nostros {
+    padding: 10px;
+    flex: 50%;
+}
+
+.menu__galeria {
+    padding: 10px;
+    flex: 50%;
+}
+
+.menu__productos {
+    padding: 10px;
+    flex: 50%;
+}
+
+.menu__contacto {
+    padding: 10px;
+    flex: 50%;
+}
+
+.frigorifico__logo {
+    grid-auto-rows: 200px;
+    gap: 1rem;
+    grid-auto-flow: row dense;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.izquierda {
+    flex: 30%;
+   
+    padding: 20px;
+}
+
+
+.presentacion__frigorifico {
+    flex: 70%;
+    
+    padding: 20px;
+    flex: auto;
+}
+
+
+#formulario {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    border: 10px;
+    border-color: grey;
+    border-style: outset;
+    padding: auto;
+    margin: auto;
+    background-color: rgb(202, 186, 186);
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 0px;
+    }
+
+.columna {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 3px;
+}
+
+.columna img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media all and (min-width: 800px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width: 800px) {
+    .menu {
+        display: grid;
+        float: left;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.photo {
+    height: 670px;
+    width: 670px;
+}
+
+@media all and (min-width: 320px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    body {
+        background-image: linear-gradient(to bottom, rgb(241, 112, 112), white); 
+        font-size: smaller;
+    }
+}
+

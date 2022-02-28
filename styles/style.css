@@ -166,6 +166,24 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
 .favicon {
     border-radius: 20%;
 }
+
+
+.bi {
+    vertical-align: -.125em;
+    fill: rgb(214, 68, 68);
+}
+
+.historia {
+    font-size: x-large;
+    text-align: justify;
+}
+
+.rounded-pill{
+    height: 400px;
+    width: 300px;
+}
+

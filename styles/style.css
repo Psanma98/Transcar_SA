@@ -9,7 +9,8 @@ body {
 }
 
 .header {
-    background-color: rgb(214, 68, 68)
+    background-color: rgb(214, 68, 68);
+    margin-top: 0%;
 }
 
 h1 {
@@ -185,5 +186,13 @@ footer {
 .rounded-pill{
     height: 400px;
     width: 300px;
+}
+
+
+.carousel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    
 }
 

@@ -18,6 +18,7 @@ h1 {
     font-size: 45px;
     color: whitesmoke;
     text-align: center;
+    text-orientation: sideways-right;
 }
 
 h2 {

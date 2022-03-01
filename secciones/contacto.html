@@ -65,28 +65,40 @@
             Contacto
         </p>
     </h2>
-
-
-
-    <section id="formulario">
-        Póngase en contacto con nosotros completando el siguiente formulario:
-        <form>
-            <p>
-                Nombre y apellido: <input type="text" name="nombre" />
-            </p>
-            <p>
-                Dirección de email: <input type="emal" name="email" placeholder="nombre@ejemplo.com">
-            </p>
-            <p>
-                Consulta: <textarea rows="5" cols="30"></textarea>
-                <p class="btn">
-                    <input type="submit" value="Enviar consulta">
-                    <input type="reset" value="Limpiar formulario">
-                    <input type="button" value="Sin acciones">
-                </p>
-        </form>
-        Nuestro staff le responderá a la brevedad.
     </section>
+
+    <div class="formulario">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre(s) y Apellido(s):</label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Dirección de email:</label>
+                <input type="email" placeholder="nombre@ejemplo.com" class="form-control" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Consulta</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="  justify-content-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary">Limpiar</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
 
 
     <div class="container-fluid">

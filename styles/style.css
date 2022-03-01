@@ -99,19 +99,12 @@ footer {
     flex: auto;
 }
 
-#formulario {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    border: 10px;
-    border-color: grey;
-    border-style: outset;
-    padding: auto;
-    margin: auto;
-    background-color: rgb(202, 186, 186);
+.formulario{
+   width: 600px;
+   border: 8px;
+   border-style:outset;
+   border-radius: 2%;
 }
-
-
 
 .galeria {
     display: grid;

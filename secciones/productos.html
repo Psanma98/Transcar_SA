@@ -51,7 +51,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    INGRESO CLIENTES
+                                    ACCESO
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item" href="./productos.html">Clientes | Log in</a></li>
@@ -65,10 +65,36 @@
         </nav>
     </section>
     <h2>
-        <p>
-            Productos
+        <p class="row justify-content-center">
+            Acceso clientes
         </p>
     </h2>
+
+    <div class="text-center">
+        <main class="form-signin">
+            <form>
+                Por favor, ingrese para continuar
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo">
+                    <label for="floatingInput">Dirección de correo electrónico</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Contraseña</label>
+                </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Recuérdame
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
+                
+            </form>
+        </main>
+    </div>
+
     <div class="container-fluid">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">

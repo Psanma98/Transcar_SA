@@ -9,7 +9,8 @@ body {
 }
 
 .header {
-    background-color: rgb(214, 68, 68)
+    background-color: rgb(214, 68, 68);
+   
 }
 
 h1 {
@@ -17,6 +18,7 @@ h1 {
     font-size: 45px;
     color: whitesmoke;
     text-align: center;
+
 }
 
 h2 {
@@ -35,11 +37,8 @@ h6 {
 
 footer {
     background-color: rgb(218, 33, 33);
-    border-width: 2px;
     margin-top: 500px;
 }
-
-
 
 .menu {
     display: flex;
@@ -98,74 +97,120 @@ footer {
     flex: auto;
 }
 
-#formulario {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    border: 10px;
-    border-color: grey;
+.formulario {
+    width: 600px;
+    border: 8px;
     border-style: outset;
-    padding: auto;
-    margin: auto;
-    background-color: rgb(202, 186, 186);
+    border-radius: 2%;
 }
 
 
+.favicon {
+    border-radius: 20%;
+}
 
-.galeria {
+.mb-4 {
+    width: 80px;
+    height: 90px;
+    border-radius: 20%;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: rgb(214, 68, 68);
+}
+
+.carousel {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.grid-gallery {
     display: grid;
     grid-auto-rows: 200px;
     gap: 1rem;
     grid-auto-flow: row dense;
-}
+  }
 
-@media all and (min-width: 320px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
+
+  @media all and (min-width: 320px) {
+    .grid-gallery {
+      grid-template-columns: repeat(1, 1fr);
     }
-}
-
-@media all and (min-width: 768px) {
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media all and (min-width: 768px) {
+    .grid-gallery {
+      grid-template-columns: repeat(3, 1fr);
     }
-}
-
-@media all and (min-width: 1024px) {
-    .galeria {
-        grid-template-columns: repeat(6, 1fr);
+  }
+  
+  @media all and (min-width: 1024px) {
+    .grid-gallery {
+      grid-template-columns: repeat(6, 1fr);
     }
-}
-
-.galeria__item:nth-child(11n+1) {
+  }
+  
+  .grid-gallery__item:nth-child(11n+1) {
     grid-column: span 1;
-}
-
-.galeria__item:nth-child(11n+4) {
+  }
+  
+  .grid-gallery__item:nth-child(11n+4) {
     grid-column: span 2;
     grid-row: span 1;
-}
-
-.galeria__item:nth-child(11n+6) {
+  }
+  
+  .grid-gallery__item:nth-child(11n+6) {
     grid-column: span 3;
     grid-row: span 1;
-}
-
-.galeria__item:nth-child(11n+7) {
+  }
+  
+  .grid-gallery__item:nth-child(11n+7) {
     grid-column: span 1;
     grid-row: span 2;
-}
-
-.galeria__item:nth-child(11n+8) {
+  }
+  
+  .grid-gallery__item:nth-child(11n+8) {
     grid-column: span 2;
     grid-row: span 2;
-}
-
-.galeria__foto {
+  }
+  
+  .grid-gallery__item:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+  
+  .grid-gallery__image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.favicon {
-    border-radius: 20%;
-}
+    border-radius: 5%;
+  }
+  
+  

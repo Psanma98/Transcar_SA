@@ -6,15 +6,6 @@ body {
   background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif; }
 
-.header {
-  background-color: #d64444; }
-
-h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 45px;
-  color: whitesmoke;
-  text-align: center; }
-
 h2 {
   text-align: justify; }
 
@@ -29,30 +20,6 @@ h6 {
 footer {
   background-color: #da2121;
   margin-top: 500px; }
-
-.menu {
-  display: flex;
-  background-color: #da2121; }
-
-.menu__home {
-  padding: 10px;
-  flex: 50%; }
-
-.menu__nostros {
-  padding: 10px;
-  flex: 50%; }
-
-.menu__galeria {
-  padding: 10px;
-  flex: 50%; }
-
-.menu__productos {
-  padding: 10px;
-  flex: 50%; }
-
-.menu__contacto {
-  padding: 10px;
-  flex: 50%; }
 
 .frigorifico__logo {
   grid-auto-rows: 200px;

@@ -8,21 +8,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    background-color: rgb(214, 68, 68);
-    margin-top: 0%;
-}
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 45px;
-    color: whitesmoke;
-    text-align: center;
-
-}
-
 h2 {
     text-align: justify;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle {
+    outline: 0;
 }
 
 h3 {
@@ -40,36 +53,6 @@ footer {
     margin-top: 500px;
 }
 
-.menu {
-    display: flex;
-    background-color: rgb(218, 33, 33);
-}
-
-.menu__home {
-    padding: 10px;
-    flex: 50%;
-}
-
-.menu__nostros {
-    padding: 10px;
-    flex: 50%;
-}
-
-.menu__galeria {
-    padding: 10px;
-    flex: 50%;
-}
-
-.menu__productos {
-    padding: 10px;
-    flex: 50%;
-}
-
-.menu__contacto {
-    padding: 10px;
-    flex: 50%;
-}
-
 .frigorifico__logo {
     grid-auto-rows: 200px;
     gap: 1rem;
@@ -83,12 +66,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+.carousel {
+    width: 600px;
 
-.izquierda {
-    flex: 30%;
-
-    padding: 20px;
 }
+
 
 .presentacion__frigorifico {
     flex: 70%;
@@ -110,26 +92,21 @@ footer {
     gap: 1rem;
     grid-auto-flow: row dense;
 }
+.ba {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
 
-@media all and (min-width: 320px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
 
-@media all and (min-width: 768px) {
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media all and (min-width: 1024px) {
-    .galeria {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
-
-.galeria__item:nth-child(11n+1) {
+  .galeria__item:nth-child(11n+1) {
     grid-column: span 1;
 }
 
@@ -163,40 +140,6 @@ footer {
     border-radius: 20%;
 }
 
-.mb-4 {
-    width: 80px;
-    height: 90px;
-    border-radius: 20%;
-}
-
-.bi {
-    vertical-align: -.125em;
-    fill: rgb(214, 68, 68);
-}
-
-.historia {
-    font-size: x-large;
-    text-align: justify;
-}
-
-.rounded-pill {
-    height: 400px;
-    width: 300px;
-}
-
-
-.carousel {
-    width: 400px;
-
-}
-
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
-
 .form-signin .checkbox {
     font-weight: 400;
 }
@@ -216,3 +159,65 @@ footer {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.form-control-dark {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray);
+  }
+  .form-control-dark:focus {
+    color: #fff;
+    background-color: var(--bs-dark);
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+  }
+
+.bi {
+    vertical-align: -.125em;
+    fill: rgb(214, 68, 68);
+}
+
+.historia {
+    font-size: x-large;
+    text-align: justify;
+}
+
+.rounded-pill {
+    height: 400px;
+    width: 300px;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.izquierda {
+    flex: 30%;
+
+    padding: 20px;
+}
+@media all and (min-width: 320px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media all and (min-width: 768px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .galeria {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+
+
+
+

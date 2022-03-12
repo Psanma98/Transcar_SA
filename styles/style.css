@@ -50,7 +50,9 @@ footer {
     background-color: rgb(218, 33, 33);
     margin-top: 500px;
 }
-
+.header{
+    background-color: rgb(218, 33, 33);
+}
 .frigorifico__logo {
     grid-auto-rows: 200px;
     gap: 1rem;
@@ -210,6 +212,10 @@ h6 {
     .galeria {
         grid-template-columns: repeat(6, 1fr);
     }
+}
+
+.ico{
+    padding: 5px;
 }
 
 

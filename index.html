@@ -13,47 +13,62 @@
 </head>
 
 <body>
-    <nav class="py-2 bg-light border-bottom">
-        <div class="container d-flex flex-wrap">
-            <ul class="nav me-auto">
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a>
-                </li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Nosotros</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Galeria</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Acceso
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="./secciones/productos.html">Clientes | Log in</a></li>
-                        <li><a class="dropdown-item" href="./secciones/administracion.html">Administración | Log in</a></li>
-                    </ul>
-                </li>
+    <div class="header">
+        <nav class="py-2 danger border-bottom">
+            <div class="container d-flex flex-wrap">
+                <ul class="nav me-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="./secciones/nosotros.html"
+                            class="nav-link link-dark px-2">Nosotros</a></li>
+                    <li class="nav-item"><a href="./secciones/galeria.html" class="nav-link link-dark px-2">Galeria</a>
+                    </li>
+                    <li class="nav-item"><a href="./secciones/contacto.html"
+                            class="nav-link link-dark px-2">Contacto</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Acceso
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./secciones/productos.html">Clientes | Log in</a></li>
+                            <li><a class="dropdown-item" href="./secciones/administracion.html">Administración | Log
+                                    in</a></li>
+                        </ul>
+                    </li>
 
-               
-                
-            </ul>
-            <ul class="nav">
-                <li class="nav-item"><a href="www.instagram.com" class="nav-link link-dark px-2"><img src="./media/" alt=""></a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
-            </ul>
-        </div>
-    </nav>
+                </ul>
+                <ul class="nav">
+                    <div class="ico">
+                        <a href="http://www.instagram.com"><img src="./media/instagram.ico" alt=""></a>
+                    </div>
+                    <div class="ico">
+                        <a href="http://www.facebook.com"><img src="./media/facebook.ico" alt=""></a>
+                    </div>
+                    <div class="ico">
+                        <a href="http://www.gmail.com"><img src="./media/gmail.ico" alt=""></a>
+                    </div>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
     <header class="py-3 mb-4 border-bottom">
         <div class="container d-flex flex-wrap justify-content-center">
             <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
                 <svg class="ba me-2" width="40" height="32">
                     <use xlink:href="#bootstrap" /></svg>
-                    <img src="./media/favicon.ico" alt="">
+                <img src="./media/favicon.ico" alt="">
                 <span class="fs-4">TRANSCAR DEL VALLE S.A.</span>
             </a>
             <form class="col-12 col-lg-auto mb-3 mb-lg-0">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                <input type="search" class="form-control" placeholder="Ingrese su búsqueda" aria-label="Search">
             </form>
         </div>
-        
     </header>
+
     <div class="carrousel row justify-content-center">
         <div id="carouselExampleFade " class="carousel slide carousel-fade " data-bs-ride="carousel">
             <div class="carousel-inner">

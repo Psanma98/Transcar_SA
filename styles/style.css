@@ -6,142 +6,38 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif; }
 
-h2 {
-    text-align: justify;
-}
-
-.form-control-dark {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: var(--bs-gray);
-}
-
-.form-control-dark:focus {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: #fff;
-    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
-}
-
-.bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-}
-
-.text-small {
-    font-size: 85%;
-}
-
-.dropdown-toggle {
-    outline: 0;
-}
-
-h3 {
-    color: white;
-    font-size: small;
-}
-
-h6 {
-    font-size: larger;
-    text-align: justify;
-}
-
-footer {
-    background-color: rgb(218, 33, 33);
-    margin-top: 500px;
-}
-.header{
-    background-color: rgb(218, 33, 33);
-}
-.frigorifico__logo {
-    grid-auto-rows: 200px;
-    gap: 1rem;
-    grid-auto-flow: row dense;
-    padding: auto;
-    margin: auto;
-    text-align: center;
-}
-
-.presentacion {
-    display: flex;
-    flex-wrap: wrap;
-}
-.carousel {
-    width: 600px;
-
-}
-
-
-.presentacion__frigorifico {
-    flex: 70%;
-
-    padding: 20px;
-    flex: auto;
-}
-
-.formulario {
-    width: 600px;
-    border: 8px;
-    border-style: outset;
-    border-radius: 2%;
-}
-
-.galeria {
-    display: grid;
-    grid-auto-rows: 200px;
-    gap: 1rem;
-    grid-auto-flow: row dense;
-}
-.ba {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
-  
-  .text-small {
-    font-size: 85%;
-  }
-  
-  .dropdown-toggle {
-    outline: 0;
-  }
-
-
-  .galeria__item:nth-child(11n+1) {
-    grid-column: span 1;
-}
-
-.galeria__item:nth-child(11n+4) {
-    grid-column: span 2;
-    grid-row: span 1;
-}
-
-.galeria__item:nth-child(11n+6) {
-    grid-column: span 3;
-    grid-row: span 1;
-}
-
-.galeria__item:nth-child(11n+7) {
-    grid-column: span 1;
-    grid-row: span 2;
-}
-
-.galeria__item:nth-child(11n+8) {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.galeria__foto {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+header {
+  background-color: #d64444; }
 
 .favicon {
   border-radius: 10%; }
 
-.form-signin .checkbox {
-    font-weight: 400;
-}
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+  color: whitesmoke;
+  text-align: center; }
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto; }
+  .form-signin .form-floating:focus-within {
+    z-index: 2; }
+    .form-signin .form-floating:focus-within input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0; }
+    .form-signin .form-floating:focus-within input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0; }
+  .form-signin .checkbox {
+    font-weight: 400; }
+
+h2 {
+  text-align: justify; }
 
 h3 {
   color: white;
@@ -151,74 +47,91 @@ h6 {
   font-size: larger;
   text-align: justify; }
 
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
+footer {
+  background-color: #da2121;
+  margin-top: 500px; }
 
-.form-control-dark {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: var(--bs-gray);
-  }
-  .form-control-dark:focus {
-    color: #fff;
-    background-color: var(--bs-dark);
-    border-color: #fff;
-    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
-  }
+.frigorifico__logo {
+  grid-auto-rows: 200px;
+  gap: 1rem;
+  grid-auto-flow: row dense;
+  padding: auto;
+  margin: auto;
+  text-align: center; }
 
-.bi {
-    vertical-align: -.125em;
-    fill: rgb(214, 68, 68);
-}
-
-.historia {
-    font-size: x-large;
-    text-align: justify;
-}
-
-.rounded-pill {
-    height: 400px;
-    width: 300px;
-}
-
-.form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
+.presentacion {
+  display: flex;
+  flex-wrap: wrap; }
 
 .izquierda {
-    flex: 30%;
+  flex: 30%;
+  padding: 20px; }
 
-    padding: 20px;
-}
+.presentacion__frigorifico {
+  flex: 70%;
+  padding: 20px;
+  flex: auto; }
+
+.formulario {
+  width: 600px;
+  border: 8px;
+  border-style: outset;
+  border-radius: 2%; }
+
+.mb-4 {
+  width: 80px;
+  height: 90px;
+  border-radius: 20%; }
+
+.bi {
+  vertical-align: -.125em;
+  fill: #d64444; }
+
+.carousel {
+  width: 400px;
+  margin-top: 20px; }
+
+.grid-gallery {
+  display: grid;
+  grid-auto-rows: 200px;
+  gap: 1rem; }
+
 @media all and (min-width: 320px) {
-    .galeria {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media all and (min-width: 768px) {
-    .galeria {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media all and (min-width: 1024px) {
-    .galeria {
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
+  .grid-gallery {
+    grid-template-columns: repeat(6, 1fr); } }
 
-.ico{
-    padding: 5px;
-}
+.grid-gallery__item:nth-child(11n+1) {
+  grid-column: span 1; }
 
+.grid-gallery__item:nth-child(11n+4) {
+  grid-column: span 2;
+  grid-row: span 1; }
 
+.grid-gallery__item:nth-child(11n+6) {
+  grid-column: span 3;
+  grid-row: span 1; }
 
+.grid-gallery__item:nth-child(11n+7) {
+  grid-column: span 1;
+  grid-row: span 2; }
 
+.grid-gallery__item:nth-child(11n+8) {
+  grid-column: span 2;
+  grid-row: span 2; }
 
+.grid-gallery__item:nth-child(11n+9) {
+  grid-row: span 3; }
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%; }

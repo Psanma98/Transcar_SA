@@ -1,0 +1,26 @@
+.nosotros{
+    width: 50%;
+    margin: 20px auto;
+    color: black;
+    padding: 15px;
+  }
+  
+.nosotros-izquierda {
+    float: left;
+    margin-right: 15px;
+    height: 250px;
+  }
+  
+ .nosotros-derecha {
+    float: right;
+    margin-left: 15px;
+    height: 250px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+  
+  .descripcion {
+      text-align: justify;
+  }

@@ -12,11 +12,17 @@ header {
 .favicon {
   border-radius: 10%; }
 
-h1 {
+.fs-4 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 45px;
   color: whitesmoke;
   text-align: center; }
+
+.icon {
+  margin-right: 10px; }
+
+.ico {
+  padding: 4px; }
 
 .form-signin {
   width: 100%;
@@ -100,7 +106,8 @@ footer {
 
 .carousel {
   width: 400px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .formulario {
   width: 600px;

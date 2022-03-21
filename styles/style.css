@@ -87,6 +87,19 @@ div.reset {
   text-align: justify;
   color: #f7f7f7; }
 
+.boton {
+  display: inline-block;
+  padding: 16px; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--instagram {
+  background-color: #C25E30; }
+
 h2 {
   text-align: justify; }
 

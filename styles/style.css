@@ -73,8 +73,19 @@ header {
 div.reset {
   clear: both; }
 
-.descripcion {
-  text-align: justify; }
+.descripcion-derecha {
+  background-color: #ff5c5c;
+  font-size: large;
+  font-family: "Gill Sans";
+  text-align: justify;
+  color: #f7f7f7; }
+
+.descripcion-izquierda {
+  background-color: #ff9292;
+  font-size: large;
+  font-family: "Gill Sans";
+  text-align: justify;
+  color: #f7f7f7; }
 
 h2 {
   text-align: justify; }

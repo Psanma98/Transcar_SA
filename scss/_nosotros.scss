@@ -1,26 +1,41 @@
-.nosotros{
-    width: 100%;
-    margin: 20px auto;
-    color: black;
-    padding: 15px;
-  }
-  
+$white:#f7f7f7;
+
+@mixin container ($color, $tamano, $tipografia) {
+  background-color: $color;
+  font-size: $tamano;
+  font-family: $tipografia;
+  text-align: justify;
+}
+
+.nosotros {
+  width: 100%;
+  margin: 20px auto;
+  color: black;
+  padding: 15px;
+}
+
 .nosotros-izquierda {
-    float: left;
-    margin-right: 15px;
-    height: 250px;
-  }
-  
- .nosotros-derecha {
-    float: right;
-    margin-left: 15px;
-    height: 250px;
-  }
-  
-  div.reset {
-    clear: both;
-  }
-  
-  .descripcion {
-      text-align: justify;
-  }
+  float: left;
+  margin-right: 15px;
+  height: 250px;
+}
+
+.nosotros-derecha {
+  float: right;
+  margin-left: 15px;
+  height: 250px;
+}
+
+div.reset {
+  clear: both;
+}
+
+.descripcion-derecha {
+  @include container(#ff5c5c, large, 'Gill Sans');
+  color: $white
+
+}
+.descripcion-izquierda{
+  @include container(#ff9292, large, 'Gill Sans');
+  color: $white;
+}

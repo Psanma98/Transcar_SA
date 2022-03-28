@@ -58,7 +58,8 @@ header {
   width: 100%;
   margin: 20px auto;
   color: black;
-  padding: 15px; }
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .nosotros-izquierda {
   float: left;
@@ -97,8 +98,21 @@ div.reset {
 .btn--facebook {
   background-color: #3a5795; }
 
-.btn--instgiagram {
+.btn--instagram {
   background-color: #C25E30; }
+
+.info {
+  display: flex; }
+
+.formulario {
+  width: 50%;
+  padding-right: 5%;
+  padding-left: 5%;
+  height: 450px; }
+
+.mapa {
+  padding-right: 5%;
+  padding-left: 5%; }
 
 h2 {
   text-align: justify; }
@@ -145,12 +159,6 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px; }
 
-.formulario {
-  width: 600px;
-  border-radius: 2%;
-  border-color: black;
-  border-style: solid; }
-
 @media all and (min-width: 320px) {
   .grid-gallery {
     grid-template-columns: repeat(1, 1fr); } }
@@ -158,6 +166,14 @@ footer {
 @media all and (min-width: 768px) {
   .grid-gallery {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media (max-width: 425px) {
+  .info {
+    display: inline; }
+  .mapa {
+    width: 100%; }
+  .formulario {
+    width: 100%; } }
 
 @media all and (min-width: 1024px) {
   .grid-gallery {
@@ -183,6 +199,9 @@ footer {
   font-size: 2rem;
   color: #f5ecec;
   border-radius: .75rem; }
+
+.icon {
+  padding-bottom: 25%; }
 
 .icon-link {
   display: inline-flex;
@@ -225,3 +244,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+.texto-home {
+  padding-left: 5%;
+  padding-right: 5%; }

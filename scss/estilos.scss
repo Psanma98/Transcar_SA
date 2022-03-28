@@ -2,6 +2,7 @@
 @import "formulario";
 @import "nosotros";
 @import "contacto";
+@import "mapa";
 
 $rojo: #da2121;
 $blanco: rgb(245, 236, 236);
@@ -61,13 +62,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.formulario {
-  width: 600px;
-  border-radius: 2%;
-  border-color: black;
-  border-style: solid;
-  
-}
+
 
 @media all and (min-width: 320px) {
   .grid-gallery {
@@ -78,6 +73,17 @@ footer {
 @media all and (min-width: 768px) {
   .grid-gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .info {
+      display: inline;
+  }
+  .mapa{
+    width: 100%;
+  }
+  .formulario {
+    width: 100%;
   }
 }
 
@@ -111,7 +117,9 @@ footer {
   color: $blanco;
   border-radius: .75rem;
 }
-
+.icon{
+  padding-bottom: 25%;
+}
 .icon-link {
   display: inline-flex;
   align-items: center;
@@ -147,6 +155,11 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.texto-home {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
